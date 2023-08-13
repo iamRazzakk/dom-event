@@ -1,4 +1,4 @@
-function makeYellow(){
+function makeYellow() {
     document.body.style.backgroundColor = "yellow";
 }
 
@@ -7,18 +7,26 @@ function makeYellow(){
 const pinkButton = document.getElementById("make-pink")
 pinkButton.addEventListener('click', makePink)
 
-function makePink(){
+function makePink() {
     document.body.style.backgroundColor = "#FF69B4"
 }
 
 // another option
 const MakeGreen = document.getElementById("make-green")
-MakeGreen.addEventListener("click", function MakeMeGreen(){
+MakeGreen.addEventListener("click", function MakeMeGreen() {
     document.body.style.backgroundColor = "green"
 })
 
 // another one
 
-document.getElementById("make-blue").addEventListener("click", function(){
+document.getElementById("make-blue").addEventListener("click", function () {
     document.body.style.backgroundColor = "blue"
 })
+
+
+// how to change defult text or any thing
+
+function makemeChange() {
+    const changeME = document.getElementById("make-me-change")
+    changeME.innerText = "I heat this world"
+}
