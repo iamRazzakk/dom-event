@@ -63,15 +63,60 @@
     <input id="submit-btn" type="submit" value="Click Me">
     <script>
         document.getElementById('submit-btn').addEventListener("click", function () {
-            const commentBox = document.getElementById('text-area')
+            const commentBox = document.getElementById("text-area")
             const newComment = commentBox.value
-            const conmmentContainer = document.getElementById('comment-container')
+            const commentContainer = document.getElementById('comment-container')
             const p = document.createElement('p')
             p.innerText = newComment
-            conmmentContainer.appendChild (p)
-            commentBox.value = '';
+            commentContainer.appendChild(p)
+            commentBox.value = "";
+            
         })
     </script>
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- // document.getElementById('submit-btn').addEventListener("click", function () {
+// const commentBox = document.getElementById('text-area')
+// const newComment = commentBox.value
+// const conmmentContainer = document.getElementById('comment-container')
+// const p = document.createElement('p')
+// p.innerText = newComment
+// conmmentContainer.appendChild (p)
+// commentBox.value = '';
+// }) -->

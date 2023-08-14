@@ -47,3 +47,15 @@ document.getElementById("make-blue").addEventListener("click", function () {
 // })
 
 
+
+
+// document.getElementById('submit-btn').addEventListener("click", function () {
+//     const commentBox = document.getElementById('text-area')
+//     const newComment = commentBox.value
+//     const conmmentContainer = document.getElementById('comment-container')
+//     const p = document.createElement('p')
+//     p.innerText = newComment
+//     conmmentContainer.appendChild (p)
+//     commentBox.value = '';
+// })
+
