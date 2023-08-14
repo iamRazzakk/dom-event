@@ -26,36 +26,36 @@ document.getElementById("make-blue").addEventListener("click", function () {
 
 // how to change defult text or any thing
 
-// function makemeChange() {
-//     const changeME = document.getElementById("make-me-change")
-//     changeME.innerText = "I heat this world"
-// }
+function makemeChange() {
+    const changeME = document.getElementById("make-me-change")
+    changeME.innerText = "I heat this world"
+}
 //  same function another away
-//  document.getElementById("make-btn").addEventListener("click", function(){
-//     const changeIt = document.getElementById("make-me-change")
-//     changeIt.innerText = "I heat This world"
-//  })
+ document.getElementById("make-btn").addEventListener("click", function(){
+    const changeIt = document.getElementById("make-me-change")
+    changeIt.innerText = "I heat This world"
+ })
 
 // i want whean i click in update the the title is changeIt
 
-// document.getElementById("update-btn").addEventListener("click", function(){
-//     const inputField = document.getElementById("input-field");
-//     const inputText = inputField.value;
-//     const p = document.getElementById("input-text-display")
-//     p.innerText = inputText
-//     inputField.value ="";
-// })
+document.getElementById("update-btn").addEventListener("click", function(){
+    const inputField = document.getElementById("input-field");
+    const inputText = inputField.value;
+    const p = document.getElementById("input-text-display")
+    p.innerText = inputText
+    inputField.value ="";
+})
 
 
 
 
-// document.getElementById('submit-btn').addEventListener("click", function () {
-//     const commentBox = document.getElementById('text-area')
-//     const newComment = commentBox.value
-//     const conmmentContainer = document.getElementById('comment-container')
-//     const p = document.createElement('p')
-//     p.innerText = newComment
-//     conmmentContainer.appendChild (p)
-//     commentBox.value = '';
-// })
+document.getElementById('submit-btn').addEventListener("click", function () {
+    const commentBox = document.getElementById('text-area')
+    const newComment = commentBox.value
+    const conmmentContainer = document.getElementById('comment-container')
+    const p = document.createElement('p')
+    p.innerText = newComment
+    conmmentContainer.appendChild (p)
+    commentBox.value = '';
+})
 
